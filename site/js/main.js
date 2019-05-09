@@ -17,12 +17,11 @@ function toggleMenu(event){
 }
 
 function toggleFocus(event){
-    console.log("begone element!")
-    let begonner = document.querySelector(".title-card")
-    begonner.classList.toggle("nonexistence")
+    console.log("Focus!")
+    let focus = document.querySelector(".title-card")
+    focus.classList.toggle("focus")
     
-    let appearer = document.querySelector(".article-preview")
-    appearer.classList.toggle("fader")
-    appearer.classList.toggle("invisible")
+    // begonner.classList.toggle("nonexistence")
+    
     
 }

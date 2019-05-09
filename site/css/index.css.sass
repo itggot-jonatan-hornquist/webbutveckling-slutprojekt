@@ -40,6 +40,9 @@
             height: 30%
             border-radius: 0 0 15px 15px
 
+            transition: height 0.5s ease
+            transition: width 0.5s ease
+
             .title-title
                 margin: 0
                 font-size: 24px
@@ -60,22 +63,6 @@
                 grid-area: misc-bot
                 align-self: flex-start
     
-        .article-preview
-            transition: opacity 1s ease
-
-            z-index: 10
-            opacity: 0
+        .focus
             height: 100%
             width: 100%
-            background-color: rgba(0, 0, 0, 0.5)
-
-        .fader
-            opacity: 1
-            transition: opacity 1s ease
-
-
-.nonexistence
-    display: none !important
-        
-.invisible
-    opacity: 0
