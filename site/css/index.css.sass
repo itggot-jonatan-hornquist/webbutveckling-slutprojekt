@@ -36,19 +36,18 @@
             border-style: solid
             border-color: black
 
-
             background-color: rgba(0, 0, 0, 0.5)
             height: 30%
             border-radius: 0 0 15px 15px
 
-            h1
+            .title-title
                 margin: 0
                 font-size: 24px
 
                 grid-area: main
 
 
-            p
+            .title-misc
                 margin: 0
                 font-size: 16px
 
@@ -60,6 +59,23 @@
             .title-misc-bot
                 grid-area: misc-bot
                 align-self: flex-start
-                
-        
     
+        .article-preview
+            transition: opacity 1s ease
+
+            z-index: 10
+            opacity: 0
+            height: 100%
+            width: 100%
+            background-color: rgba(0, 0, 0, 0.5)
+
+        .fader
+            opacity: 1
+            transition: opacity 1s ease
+
+
+.nonexistence
+    display: none !important
+        
+.invisible
+    opacity: 0
