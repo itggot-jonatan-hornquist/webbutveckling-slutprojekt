@@ -26,13 +26,13 @@
         margin-bottom: 2vh
 
     .article-1
-        background-image: url("../img/mobile_article_1.png")
+        background-image: url("../img/m_article_1.jpg")
 
     .article-2
-        background-image: url("../img/mobile_article_1.png")
+        background-image: url("../img/m_article_2.jpg")
     
     .article-3
-        background-image: url("../img/mobile_article_1.png")
+        background-image: url("../img/m_article_3.jpg")
 
 .title-card
     pointer-events: none
@@ -55,7 +55,8 @@
 
 .title-title
     margin: 0
-    font-size: 24px
+    font-size: 16px
+    text-align: center
 
     grid-area: main
 
@@ -127,3 +128,34 @@
 .focus-title-content
     display: grid !important
             
+@media only screen and (min-device-width: 768px)
+    .content
+        width: 80vw !important
+        margin-left: 20vw
+
+    .article-box
+        width: 50vw !important
+        margin-top: 3vh !important
+
+    .title-title
+        font-size: 28px
+
+    .title-misc
+        font-size: 24px
+
+    .focus-title-content
+        font-size: 22px
+
+    .read-button
+        font-size: 36px
+        width: 150px
+        height: 40px
+
+    .article-1
+        background-image: url("../img/d_article_1.jpg")
+
+    .article-2
+        background-image: url("../img/d_article_2.jpg")
+    
+    .article-3
+        background-image: url("../img/d_article_3.jpg")

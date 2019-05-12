@@ -57,7 +57,6 @@ header
 
 
 .menu
-
     transition: left 0.3s ease
 
     position: fixed !important
@@ -65,7 +64,6 @@ header
 
     display: flex
     flex-direction: column
-    position: absolute
     background-color: #404B67
 
     z-index: 2
@@ -81,6 +79,17 @@ header
         border-bottom-style: solid
         border-bottom-width: 1px
         border-bottom-color: #9B9B9B
+
+
+        text-align: center
+
+        .menu-title
+            display: none
+
+            font-size: 38px
+            letter-spacing: 4px
+
+
 
     .menu-main
         height: calc(100vh - 59px)
@@ -142,3 +151,22 @@ header
 
 .menu-activated
     left: 0
+
+
+@media only screen and (min-device-width: 768px)
+    .wrapper
+        flex-direction: row
+
+    .menu
+        left: 0px
+        z-index: 0
+        width: 20vw
+
+    .menu-head
+        height: 120px !important
+
+        .menu-title
+            display: inline-block !important
+
+    header
+        display: none
