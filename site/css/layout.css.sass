@@ -163,19 +163,57 @@ header
 footer
     border-style: solid
     border-color: black
-    border-width: 2px
+    border-width: 1px
+
+    border-radius: 10px
     
-    margin-bottom: 10px
+    margin-top: 15px
     height: 50px
     width: 80vw
     align-self: center
+    background-color: #1C3246
 
     display: flex
     flex-direction: row
 
 .contact-info
+    display: flex
+    margin: 0
+    text-align: left
+    width: auto
+    font-size: 16px
+    justify-content: center
+    align-items: center
+    margin-right: 5px
+
+
+.contact-info-list
+    margin: 0
+    list-style: none
+    text-align: left
+    padding: 0
+    margin-left: 15px
+    align-self: center
+
 
 .social-media
+    display: flex
+    margin: 0
+    width: auto
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    margin-left: 5px
+
+.social-media-list
+    padding: 0
+    margin: 0
+
+.mobile_icon
+    height: 32px
+    width: 32px
+    border-radius: 5px
+    
 
 @media only screen and (min-device-width: 768px)
     .wrapper
@@ -197,3 +235,11 @@ footer
 
     header
         display: none
+
+    footer
+        width: 270px
+        height: 180px
+        position: absolute
+        z-index: 1000
+        bottom: 0
+        right: 0
