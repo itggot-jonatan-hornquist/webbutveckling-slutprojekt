@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">    
     <title>Alternatus - Home</title>
 </head>
 <body>
@@ -22,9 +24,9 @@
                 <h1 class="menu-title">Alternatus</h1>
             </div>
             
-            <div class="menu-main">
+            <nav class="menu-main">
                 
-                <div class="menu-edge">
+                <section class="menu-edge">
                     <div class="menu-edge-item">
                         <i class="material-icons md-28">equalizer</i>
                         <a href="index.html"class="menu-text">Headlines</a>
@@ -37,22 +39,22 @@
                         <i class="material-icons md-28">history</i>
                         <h1 class="menu-text">History</h1>
                     </div>
-                </div>
+                </section>
                 
                 <div class="menu-divider"></div>
 
-                <div class="menu-mid">
+                <section class="menu-mid">
                     <a class="menu-text" href="index.html">Relevant</a>
                     <a class="menu-text" href="index.html">Funny</a>
                     <a class="menu-text" href="index.html">Informative</a>
                     <a class="menu-text" href="index.html">Epic</a>
                     <a class="menu-text" href="index.html">Lukewarm</a>
                     <a class="menu-text" href="index.html">Gigantic</a>
-                </div>
+                </section>
                 
                 <div class="menu-divider"></div>
 
-                <div class="menu-edge menu-bot">
+                <section class="menu-edge menu-bot">
                     <div class="menu-edge-item">
                         <i class="material-icons md-28">info</i>
                         <a href="about_us.html"class="menu-text">About us</a>
@@ -69,14 +71,23 @@
                         <i class="material-icons md-28">help</i>
                         <h1 class="menu-text">Help</h1>
                     </div>
-                </div>
-            </div>
+                </section>
+            </nav>
         </div>
         <div class="fade" onclick="toggleMenu()"></div>
         
         
         <%= yield %>
         
+        <footer>
+            <section class="contact-info">
+    
+            </section>
+            <section class="social-media">
+    
+            </section>
+    
+        </footer>
     </div>
     
     <script src="js/main.js"></script>
