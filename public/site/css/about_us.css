@@ -1,0 +1,121 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90vw;
+  height: 80vh;
+  background-color: #31394E;
+  margin-top: 5%; }
+
+.about-us * {
+  margin-left: 30px; }
+
+.about-us-title {
+  font-size: 28px;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic; }
+
+.about-us-image {
+  display: none; }
+
+.about-us-seperator {
+  margin-top: 10px;
+  width: 60%;
+  height: 1px;
+  background-color: #9B9B9B; }
+
+.about-us-description {
+  font-size: 2.5vmax;
+  margin-top: 10px;
+  margin-right: 15px;
+  overflow: auto;
+  text-align: left;
+  width: auto;
+  height: auto; }
+
+.AU-footer {
+  display: none; }
+
+@media only screen and (min-device-width: 768px) {
+  .about-us {
+    width: 50vw !important;
+    height: 90vh;
+    margin-left: 35vw;
+    align-content: center;
+    align-self: center; }
+
+  .about-us-image {
+    display: block;
+    width: 60%;
+    height: 50%;
+    max-width: 500px;
+    max-height: 300px;
+    align-self: center;
+    margin-top: 2%;
+    border-radius: 15px; }
+
+  .about-us-title {
+    font-size: 36px;
+    margin-left: 10%; }
+
+  .about-us-seperator {
+    margin-left: 10%; }
+
+  .about-us-description {
+    font-size: 28px !important;
+    margin-top: 2%;
+    margin-right: 7%;
+    margin-left: 7%;
+    line-height: 38px; }
+
+  .AU-footer {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 15%;
+    width: 80%;
+    align-self: center;
+    background-color: #31394E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .AU-contact-info {
+    display: flex;
+    margin: 0;
+    text-align: left;
+    width: auto;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px; }
+
+  .AU-contact-info-list {
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-left: 15px;
+    align-self: center; }
+
+  .AU-social-media {
+    display: flex;
+    margin: 0;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px; }
+
+  .AU-social-media-list {
+    padding: 0;
+    margin: 0; }
+
+  .AU-mobile-icon {
+    height: 64px;
+    width: 64px;
+    border-radius: 5px; } }

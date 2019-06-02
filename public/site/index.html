@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">    
+    <title>Alternatus - Home</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="material-icons md-32" onclick="toggleMenu()">menu</i>
+            <h1 class="website-name">Alternatus</h1>
+            <i class="material-icons md-32">search</i>
+        </header>
+        
+        <div class="menu">
+            <div class="menu-head">
+                <h1 class="menu-title">Alternatus</h1>
+            </div>
+            
+            <nav class="menu-main">
+                
+                <section class="menu-edge">
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">equalizer</i>
+                        <a href="index.html"class="menu-text">Headlines</a>
+                    </div>
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">sentiment_satisfied</i>
+                        <h1 class="menu-text">For you</h1>
+                    </div>
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">history</i>
+                        <h1 class="menu-text">History</h1>
+                    </div>
+                </section>
+                
+                <div class="menu-divider"></div>
+
+                <section class="menu-mid">
+                    <a class="menu-text" href="index.html">Relevant</a>
+                    <a class="menu-text" href="index.html">Funny</a>
+                    <a class="menu-text" href="index.html">Informative</a>
+                    <a class="menu-text" href="index.html">Epic</a>
+                    <a class="menu-text" href="index.html">Lukewarm</a>
+                    <a class="menu-text" href="index.html">Gigantic</a>
+                </section>
+                
+                <div class="menu-divider"></div>
+
+                <section class="menu-edge menu-bot">
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">info</i>
+                        <a href="about_us.html"class="menu-text">About us</a>
+                    </div>
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">language</i>
+                        <h1 class="menu-text">Language</h1>
+                    </div>
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">feedback</i>
+                        <h1 class="menu-text">Feedback</h1>
+                    </div>
+                    <div class="menu-edge-item">
+                        <i class="material-icons md-28">help</i>
+                        <h1 class="menu-text">Help</h1>
+                    </div>
+                </section>
+            </nav>
+        </div>
+        <div class="fade" onclick="toggleMenu()"></div>
+        
+        
+        <main class="content">
+
+    <section class="article-box article-1" alt="A disturbing looking blue alien fellow." onclick="toggleFocus_article_1()">
+        <div class="title-card tca-1">
+            <h1 class="title-title">11th Avatar Sequel intimidates investors</h1>
+            <div class="title-top-seperator"></div>
+            <p class="title-misc title-misc-top">2027</p>
+            <p class="title-misc title-misc-bot">Omega - 18</p>
+            <div class="title-seperator ts-1"></div>
+            <p class="title-content tc-1">After having James Cameron's corpse direct the latest 4 Avatar movies that were all released in quick succession after Disney's new "Cow Udder" program</p>
+            <a href="article_1.html" class="read-button rb-1">Read ></a>
+        </div>
+    </section>
+    <section class="article-box article-2" alt="An ancient homosapien." onclick="toggleFocus_article_2()">
+        <div class="title-card tca-2">
+            <h2 class="title-title">Humans threaten "Homo Sapiens"</h2>
+            <div class="title-top-seperator"></div>
+            <p class="title-misc title-misc-top">2139</p>
+            <p class="title-misc title-misc-bot">Alpha - 02</p>
+            <div class="title-seperator ts-2"></div>
+            <p class="title-content tc-2">Public opinion is lukeworm as species is perceived as gay due to being associated with the word "homosexual".</p>
+            <a href="article_2.html" class="read-button rb-2">Read ></a>
+        </div>
+    </section>
+    <section class="article-box article-3" alt="Swedish politician Annie Lööf." onclick="toggleFocus_article_3()">
+        <div class="title-card tca-3">
+            <h3 class="title-title">Crime criminilized in Sweden</h3>
+            <div class="title-top-seperator"></div>
+            <p class="title-misc title-misc-top">2012</p>
+            <p class="title-misc title-misc-bot">Delta - 41</p>
+            <div class="title-seperator ts-3"></div>
+            <p class="title-content tc-3">Swedish politican Annie Lööf who advcoates for the de-leglization of criminal actvitity has finally succeeded in criminlizing crime. </p>
+            <a href="article_3.html" class="read-button rb-3">Read ></a>
+        </div>
+    </section>
+</main>
+        
+        <footer class="layout-footer">
+            <section class="contact-info">
+                <ul class="contact-info-list">
+                    <li>business@alternatus.com</li>
+                    <li>202-555-0168</li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <ul class="social-media-list">
+                    <img src="img/m_twitter.jpg" alt="Twitter icon" class="mobile-icon">
+                    <img src="img/m_facebook.jpg" alt="Facebook icon" class="mobile-icon">
+                </ul>
+            </section>
+    
+        </footer>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

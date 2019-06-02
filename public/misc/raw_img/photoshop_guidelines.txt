@@ -1,0 +1,11 @@
+Mobile index article boxes:
+width: 263px
+height: 201px
+
+1.305/1 width to height ratio
+
+Desktop index article boxes:
+width: 724px
+height: 311px
+
+
